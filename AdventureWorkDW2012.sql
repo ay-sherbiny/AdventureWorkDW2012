@@ -45,7 +45,7 @@ GROUP BY CASE WHEN sod.UnitPriceDiscount > 0 THEN 'Discounted' ELSE 'No Discount
 
 
 
-
+--Customer Segmentation by Spending
 SELECT 
     CustomerID,
     FirstName,
